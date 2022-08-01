@@ -118,7 +118,7 @@ input:checked + .slider:before {
 .title2 {
     color: #4ADF86;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .subheader {
@@ -166,18 +166,30 @@ label {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+#pswrd-length:active {
+    border: #FFFFFF;
+}
+
 .output {
-    text-align: center;
     margin-top: 50px;
-    border-top:#273549 2px solid;
+    text-align: center;
+    border-top: 3px solid #273549;
 }
 
-.pswrds {
+.text-fields {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-   
+    align-items: center;
 }
 
-.pswrd1 {
-    border: 1px solid white;
+#pswrd-field {
+    background-color: #273549;
+    padding: 0px 100px;
+    border-radius: 5px;
+}
+
+#pswrd {
+    color: #4ADF86;
+    
 }
