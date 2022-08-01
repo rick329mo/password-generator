@@ -11,25 +11,36 @@
     <div class="app-card">
         
         <div class="header">
-            <label for="checkbox">Light/Dark:</label>
-            <input onclick="toggle(this.form)" id="checkbox" name="checkbox" type="checkbox">
+            <img id="night-mode" src="images/moon-icon.webp" 
+            alt="icon of moon to determine light or dark mode">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <img id="light-mode" src="images/sun-icon.png"
+            alt="icon of sun to determine light or dark mode">
             
         </div>
         
         <div class="main">
             <h1 class="title1">Generate a</h1>
             <h1 class="title2">random password</h1>
-            <h4 class="subheader">Never use an insecure password again.</h4>
-            <button id="gen-pswrd">Generate passwords</button>
-            <label for="number">password length:</label>
+            <p class="subheader">Never use an insecure password again.</p>
+            <label for="number">Set length:</label>
             <input type="number" id="pswrd-length" name= "number" min="1" max="15">
+            <button id="gen-pswrd">Generate passwords</button>
+            
         </div>
 
         <div class="output">
             <h4>Select one:</h4>
             <div class="pswrds">
-                <p id="pswrd-1"></p>
-                <p id="pswrd-2"></p>
+                <div id="pswrd1">
+                    <p>hello</p>
+                </div>
+                <div id="pswrd2">
+                    <p>world</p>
+                </div>
             </div>
         </div>
 
