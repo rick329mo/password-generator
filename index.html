@@ -11,13 +11,26 @@
     <div class="app-card">
         
         <div class="header">
-            <h1 class="title">Generate a random password</h1>
+            <label for="checkbox">Light/Dark:</label>
+            <input onclick="toggle(this.form)" id="checkbox" name="checkbox" type="checkbox">
+            
+        </div>
+        
+        <div class="main">
+            <h1 class="title1">Generate a</h1>
+            <h1 class="title2">random password</h1>
             <h4 class="subheader">Never use an insecure password again.</h4>
+            <button id="gen-pswrd">Generate passwords</button>
+            <label for="number">password length:</label>
+            <input type="number" id="pswrd-length" name= "number" min="1" max="15">
         </div>
 
-        <div class="generate">
-            <button id="gen-paswrd">Generate passwords</button>
-            <
+        <div class="output">
+            <h4>Select one:</h4>
+            <div class="pswrds">
+                <p id="pswrd-1"></p>
+                <p id="pswrd-2"></p>
+            </div>
         </div>
 
 
