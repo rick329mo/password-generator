@@ -24,7 +24,7 @@ h1 {
     margin: 50px auto;
     border-radius: 10px;
     padding: 10px 50px;
-    height: 550px;
+    min-height: 550px;
     max-width: 550px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -145,6 +145,7 @@ input:checked + .slider:before {
 
 #gen-pswrd:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
 
 #gen-pswrd:active {
@@ -171,6 +172,7 @@ label {
 #pswrd-length:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
 
 #pswrd-length:active {
     border: #FFFFFF;
