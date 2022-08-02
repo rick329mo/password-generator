@@ -25,7 +25,7 @@ h1 {
     border-radius: 10px;
     padding: 10px 50px;
     height: 550px;
-    width: 550px;
+    max-width: 550px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .header {
@@ -107,8 +107,13 @@ input:checked + .slider:before {
     border-radius: 50%;
   }
 
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
 .main {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .title1 {
@@ -135,7 +140,6 @@ input:checked + .slider:before {
     font-size: medium;
     border: none;
     border-radius: 5px;
-    margin-left: 20px;
     transition: 0.2s all;
 }
 
@@ -159,6 +163,8 @@ label {
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     transition: 0.2s all;
 }
 
@@ -171,7 +177,7 @@ label {
 }
 
 .output {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     border-top: 3px solid #273549;
 }
