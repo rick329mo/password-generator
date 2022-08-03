@@ -4,8 +4,4 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
 "/"];
 
-let genPass = document.getElementById("gen-password")
-
-function getRandomNumber() {
-    return Math.floor(Math.random * characters.length)
-}
+let genPass = document.getElementById("gen-pswrd")
