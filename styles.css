@@ -34,14 +34,16 @@ h1 {
 }
 
 #night-mode {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+    margin-bottom: 2px;
+    margin-right: 1px;
 
 }
 
 #light-mode {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
 
 /* The switch */
@@ -67,7 +69,7 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(108, 106, 106);
+    background-color: rgb(134, 131, 131);
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -79,7 +81,7 @@ h1 {
     width: 8px;
     left: 4px;
     bottom: 3px;
-    background-color:#D5D4D8;
+    background-color:#e2e1e6;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -193,7 +195,8 @@ label {
 
 #pswrd-field {
     background-color: #273549;
-    padding: 0px 100px;
+    width: 350px;
+    min-height: 50px;
     border-radius: 5px;
 }
 

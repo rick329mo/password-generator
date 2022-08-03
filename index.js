@@ -4,4 +4,18 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
 "/"];
 
-let genPass = document.getElementById("gen-pswrd")
+let password = document.getElementById("pswrd")
+ 
+function getCharacter() {
+    let randomIndex = Math.floor(Math.random() * characters.length)
+    return characters[randomIndex]
+}
+
+
+function displayPassword () {
+    let fullPassword = getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter()
+    password.textContent = fullPassword
+
+}
+
+

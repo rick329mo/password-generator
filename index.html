@@ -11,14 +11,13 @@
     <div class="app-card">
         
         <div class="header">
-            <img id="night-mode" src="images/moon-icon.webp" 
+            <img id="night-mode" src="images/moon-icon.png" 
             alt="icon of moon to determine light or dark mode">
             <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <img id="light-mode" src="images/sun-icon.png"
-            alt="icon of sun to determine light or dark mode">
+            <img id="light-mode" src="images/sun-icon.png">
             
         </div>
         <div class="flex">
@@ -28,7 +27,7 @@
                 <p class="subheader">Never use an insecure password again.</p>
                 <label for="number">Password length:</label>
                 <input type="number" id="pswrd-length" name= "number" value="8" min="5" max="20">
-                <button id="gen-pswrd">Generate password</button>
+                <button id="gen-pswrd" onclick="displayPassword()">Generate password</button>
                 
             </div>
 
@@ -36,7 +35,7 @@
                 <h4>Your password:</h4>
                 <div class="text-fields">
                     <div id="pswrd-field">
-                        <p id="pswrd">password</p>
+                        <p id="pswrd">--------</p>
                     </div>
                 </div>
             </div>
