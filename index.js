@@ -5,6 +5,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 let password = document.getElementById("pswrd")
+let passwordLength = document.getElementById("pswrd-length")
  
 function getCharacter() {
     let randomIndex = Math.floor(Math.random() * characters.length)
@@ -12,10 +13,9 @@ function getCharacter() {
 }
 
 
-function displayPassword () {
-    let fullPassword = getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter()
+function displayPassword() {
+   let fullPassword = getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter() + getCharacter()
     password.textContent = fullPassword
 
 }
-
 
