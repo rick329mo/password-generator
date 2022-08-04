@@ -204,3 +204,36 @@ label {
     color: #4ADF86;
     
 }
+
+
+/* #lightmode *
+body {
+background-color: #D1D5DB;
+}
+
+.app-card {
+    background-color: #F3F4F6;
+}
+
+.title1 {
+    color: #2B283A;
+}
+
+label{
+    color: #2B283A;
+}
+
+.subheader {
+    color: #6B7280;
+}
+
+.output {
+    color: #6B7280;
+    border-top: 3px solid #D1D5DB;
+}
+
+#pswrd-field {
+    background-color:#D1D5DB;
+}
+
+*/
